@@ -99,7 +99,7 @@ const translations = {
     hero: {
       greeting: "مرحباً، أنا هيا –",
       tagline: "أصمم تجارب ويب نظيفة تركز على المستخدم.",
-      subtitle: "مطورة واجهات أمامية مبتدئة شغوفة بإنشاء تطبيقات ويب جميلة وقابلة للوصول وعالية الأداء.",
+      subtitle: "مطورة واجهات امامية.",
       view_work: "اطلع على أعمالي",
       get_in_touch: "تواصل معي"
     },
@@ -186,7 +186,7 @@ const translations = {
     hero: {
       greeting: "Hallo, ich bin Haya –",
       tagline: "Ich erschaffe saubere und menschenzentrierte Web-Erfahrungen.",
-      subtitle: "Junior Frontend-Entwicklerin mit Leidenschaft für die Erstellung schöner, zugänglicher und leistungsstarker Webanwendungen.",
+      subtitle: "Junior Frontend-Entwicklerin.",
       view_work: "Meine Arbeit ansehen",
       get_in_touch: "Kontakt aufnehmen"
     },

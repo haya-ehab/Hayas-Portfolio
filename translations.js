@@ -12,7 +12,7 @@ const translations = {
     hero: {
       greeting: "Hi, I'm Haya –",
       tagline: "Turning designs into interactive experiences..",
-      subtitle: "Junior Frontend Developer passionate.",
+      subtitle: "Junior Frontend Developer.",
       view_work: "View My Work",
       get_in_touch: "Get In Touch"
     },

@@ -36,15 +36,19 @@ cd your-portfolio-repo
 open index.html
 ```
 
-📬 Contact
+## 📬 Contact
 Email: haya.ehab.dev@.com
 <br>
 LinkedIn: Haya Ehab
 <br>
 GitHub: haya-ehab
 
-📄 License
+---
+
+## 📄 License
 This project is Under the MIT License. All rights reserved © 2025 Haya Ehab.
+
+---
 
 
 

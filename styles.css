@@ -430,6 +430,7 @@ body {
   display: block;
   color: var(--text-secondary);
   font-weight: 400;
+  margin-top: 40px;
 }
 
 .gradient-text {
@@ -439,6 +440,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-size: 200% 200%;
   animation: gradientShift 3s ease-in-out infinite;
+  margin-top: 60px;
 }
 
 @keyframes gradientShift {

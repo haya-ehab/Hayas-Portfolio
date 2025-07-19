@@ -64,7 +64,7 @@ const translations = {
     skills: {
       title: "Skills & Tools",
       subtitle: "Technologies I work with",
-      frontend: "Frontend",
+      Skills: "Skills",
       tools: "Tools & Workflow",
       backend: "Backend & Others"
     },

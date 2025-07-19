@@ -184,8 +184,8 @@ const translations = {
       contact: "Kontakt"
     },
     hero: {
-      greeting: "Hallo, ich bin Haya –",
-      tagline: "Ich erschaffe saubere und menschenzentrierte Web-Erfahrungen.",
+      greeting: "Hallo, ich bin Haya!!",
+    
       subtitle: "Junior Frontend-Entwicklerin.",
       view_work: "Meine Arbeit ansehen",
       get_in_touch: "Kontakt aufnehmen"

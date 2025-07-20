@@ -151,7 +151,7 @@ const translations = {
     skills: {
       title: "المهارات والأدوات",
       subtitle: "التقنيات التي أعمل بها",
-      frontend: "الواجهة الأمامية",
+      skills: "المهارات",
       tools: "الأدوات وسير العمل",
       backend: "البرمجة وأخرى"
     },
@@ -238,7 +238,7 @@ const translations = {
     skills: {
       title: "Fähigkeiten & Tools",
       subtitle: "Technologien, mit denen ich arbeite",
-      frontend: "Frontend",
+      skills: "Fähigkeiten",
       tools: "Tools & Workflow",
       backend: "Programmierung & Andere"
     },

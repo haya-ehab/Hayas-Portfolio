@@ -1,401 +1,566 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haya's Portfolio</title>
-    <meta name="description" content="Haya Ehab - Creative Frontend Developer crafting clean and human-centered web experiences">
-    
+    <meta
+      name="description"
+      content="Haya Ehab - Creative Frontend Developer crafting clean and human-centered web experiences"
+    />
+
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Feather Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <img src="images/hayaa logo.png" alt="Haya Ehab" class="nav-logo">
-            </div>
-            
-            <div class="nav-controls">
-                <!-- Language Switcher -->
-                <div class="language-switcher">
-                    <button class="lang-btn active" data-lang="en">EN</button>
-                    <button class="lang-btn" data-lang="ar">AR</button>
-                    <button class="lang-btn" data-lang="de">DE</button>
-                </div>
-                
-                <!-- Theme Toggle -->
-                <button class="theme-toggle" aria-label="Toggle theme">
-                    <i data-feather="sun" class="theme-icon sun-icon"></i>
-                    <i data-feather="moon" class="theme-icon moon-icon"></i>
-                </button>
-                
-                <!-- Mobile Menu Toggle -->
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <i data-feather="menu"></i>
-                </button>
-            </div>
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="images/hayaa logo.png" alt="Haya Ehab" class="nav-logo" />
         </div>
-        
-        <!-- Mobile Navigation Menu -->
-        <div class="mobile-nav">
-            <a href="#hero" data-translate="nav.home">Home</a>
-            <a href="#about" data-translate="nav.about">About</a>
-            <a href="#projects" data-translate="nav.projects">Projects</a>
-            <a href="#skills" data-translate="nav.skills">Skills</a>
-            <a href="#contact" data-translate="nav.contact">Contact</a>
-            
-            <!-- Mobile Language Switcher -->
-            <div class="mobile-language-switcher">
-                <button class="mobile-lang-btn active" data-lang="en">English</button>
-                <button class="mobile-lang-btn" data-lang="ar">العربية</button>
-                <button class="mobile-lang-btn" data-lang="de">Deutsch</button>
-            </div>
+
+        <div class="nav-controls">
+          <!-- Language Switcher -->
+          <div class="language-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ar">AR</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+          </div>
+
+          <!-- Theme Toggle -->
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <i data-feather="sun" class="theme-icon sun-icon"></i>
+            <i data-feather="moon" class="theme-icon moon-icon"></i>
+          </button>
+
+          <!-- Mobile Menu Toggle -->
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <i data-feather="menu"></i>
+          </button>
         </div>
+      </div>
+
+      <!-- Mobile Navigation Menu -->
+      <div class="mobile-nav">
+        <a href="#hero" data-translate="nav.home">Home</a>
+        <a href="#about" data-translate="nav.about">About</a>
+        <a href="#projects" data-translate="nav.projects">Projects</a>
+        <a href="#skills" data-translate="nav.skills">Skills</a>
+        <a href="#contact" data-translate="nav.contact">Contact</a>
+
+        <!-- Mobile Language Switcher -->
+        <div class="mobile-language-switcher">
+          <button class="mobile-lang-btn active" data-lang="en">English</button>
+          <button class="mobile-lang-btn" data-lang="ar">العربية</button>
+          <button class="mobile-lang-btn" data-lang="de">Deutsch</button>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="hero-background">
-            <div class="gradient-blob blob-1"></div>
-            <div class="gradient-blob blob-2"></div>
-            <div class="gradient-blob blob-3"></div>
+      <div class="hero-background">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting" data-translate="hero.greeting"
+              >Hi, I'm Haya –</span
+            >
+            <span class="gradient-text" data-translate="hero.tagline"
+              >Turning designs into interactive experiences.</span
+            >
+          </h1>
+
+          <p class="hero-subtitle" data-translate="hero.subtitle">
+            Junior Frontend Developer passionate about creating beautiful,
+            accessible, and performant web applications.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="#projects"
+              class="btn btn-primary"
+              data-translate="hero.view_work"
+              >View My Work</a
+            >
+            <a
+              href="#contact"
+              class="btn btn-secondary"
+              data-translate="hero.get_in_touch"
+              >Get In Touch</a
+            >
+          </div>
         </div>
-        
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="greeting" data-translate="hero.greeting">Hi, I'm Haya –</span>
-                    <span class="gradient-text" data-translate="hero.tagline">Turning designs into interactive experiences.</span>
-                </h1>
-                
-                <p class="hero-subtitle" data-translate="hero.subtitle">
-                    Junior Frontend Developer passionate about creating beautiful, accessible, and performant web applications.
-                </p>
-                
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary" data-translate="hero.view_work">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary" data-translate="hero.get_in_touch">Get In Touch</a>
+
+        <div class="hero-image">
+          <div class="code-visualization">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="window-controls">
+                  <span class="control close"></span>
+                  <span class="control minimize"></span>
+                  <span class="control maximize"></span>
                 </div>
-            </div>
-            
-            <div class="hero-image">
-                <div class="code-visualization">
-                    <div class="code-window">
-                        <div class="window-header">
-                            <div class="window-controls">
-                                <span class="control close"></span>
-                                <span class="control minimize"></span>
-                                <span class="control maximize"></span>
-                            </div>
-                            <div class="window-title">portfolio.js</div>
-                        </div>
-                        <div class="code-content">
-                            <div class="code-line">
-                                <span class="line-number">1</span>
-                                <span class="code-text">
-                                    <span class="keyword">const</span> 
-                                    <span class="variable">developer</span> 
-                                    <span class="operator">=</span> {
-                                </span>
-                            </div>
-                            <div class="code-line">
-                                <span class="line-number">2</span>
-                                <span class="code-text">
-                                    &nbsp;&nbsp;<span class="property">name</span><span class="operator">:</span> 
-                                    <span class="string">"Haya Ehab"</span><span class="operator">,</span>
-                                </span>
-                            </div>
-                            <div class="code-line">
-                                <span class="line-number">3</span>
-                                <span class="code-text">
-                                    &nbsp;&nbsp;<span class="property">role</span><span class="operator">:</span> 
-                                    <span class="string">"Frontend Developer"</span><span class="operator">,</span>
-                                </span>
-                            </div>
-                            <div class="code-line">
-                                <span class="line-number">4</span>
-                                <span class="code-text">
-                                    &nbsp;&nbsp;<span class="property">passion</span><span class="operator">:</span> 
-                                    <span class="string">"Clean Code"</span>
-                                </span>
-                            </div>
-                            <div class="code-line">
-                                <span class="line-number">5</span>
-                                <span class="code-text">};</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="window-title">portfolio.js</div>
+              </div>
+              <div class="code-content">
+                <div class="code-line">
+                  <span class="line-number">1</span>
+                  <span class="code-text">
+                    <span class="keyword">const</span>
+                    <span class="variable">developer</span>
+                    <span class="operator">=</span> {
+                  </span>
                 </div>
+                <div class="code-line">
+                  <span class="line-number">2</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">name</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Haya Ehab"</span
+                    ><span class="operator">,</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">3</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">role</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Frontend Developer"</span
+                    ><span class="operator">,</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">4</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">passion</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Clean Code"</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">5</span>
+                  <span class="code-text">};</span>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-translate="about.title">About Me</h2>
-                <p class="section-subtitle" data-translate="about.subtitle">Get to know me better</p>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="images/hayaehabos.jpeg" alt="Haya Ehab workspace" class="workspace-image">
-                </div>
-                
-                <div class="about-text">
-                    <p data-translate="about.description1">
-                        Hi! I'm Haya, a Junior Frontend Developer with 1 year of coding experience. I've built a strong foundation in HTML, CSS, JavaScript, React.js, Tailwind, Git and Github. My focus is on building user-friendly, clean, and responsive designs.
-                    </p>
-                    
-                    <p data-translate="about.description2">
-                        I'm always looking to learn and grow, and I'm excited to collaborate on projects that challenge me and allow me to make a real impact. Feel free to explore my work and reach out if you're looking for a passionate junior developer to bring your ideas to life!
-                    </p>
-                    
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">1+</span>
-                            <span class="stat-label" data-translate="about.years_experience">Year Experience</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label" data-translate="about.projects_completed">Projects Completed</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="about.title">About Me</h2>
+          <p class="section-subtitle" data-translate="about.subtitle">
+            Get to know me better
+          </p>
         </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="images/hayaehabos.jpeg"
+              alt="Haya Ehab workspace"
+              class="workspace-image"
+            />
+          </div>
+
+          <div class="about-text">
+            <p data-translate="about.description1">
+              Hi! I'm Haya, a Junior Frontend Developer with 1 year of coding
+              experience. I've built a strong foundation in HTML, CSS,
+              JavaScript, React.js, Tailwind, Git and Github. My focus is on
+              building user-friendly, clean, and responsive designs.
+            </p>
+
+            <p data-translate="about.description2">
+              I'm always looking to learn and grow, and I'm excited to
+              collaborate on projects that challenge me and allow me to make a
+              real impact. Feel free to explore my work and reach out if you're
+              looking for a passionate junior developer to bring your ideas to
+              life!
+            </p>
+
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">1+</span>
+                <span class="stat-label" data-translate="about.years_experience"
+                  >Year Experience</span
+                >
+              </div>
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span
+                  class="stat-label"
+                  data-translate="about.projects_completed"
+                  >Projects Completed</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-translate="projects.title">My Projects</h2>
-                <p class="section-subtitle" data-translate="projects.subtitle">A showcase of my recent work</p>
-            </div>
-            
-            <div class="projects-grid">
-                <div class="project-card" data-project="1">
-                    <div class="project-image">
-                        <img src="images/we1.png" alt="Learnly - Online Educational Website">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="projects.project1.title">Online Educational Website</h3>
-                        <p class="project-description" data-translate="projects.project1.description">A comprehensive online learning platform with interactive courses and modern UI design.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-project="2">
-                    <div class="project-image">
-                        <img src="images/we2.png" alt="To-Do List Application">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="projects.project2.title">To-Do List Website</h3>
-                        <p class="project-description" data-translate="projects.project2.description">A clean and intuitive task management application with local storage and responsive design.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-project="3">
-                    <div class="project-image">
-                        <img src="images/we3.png" alt="Eid Adha Greeting Cards">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="projects.project3.title">Eid Adha Greeting Cards</h3>
-                        <p class="project-description" data-translate="projects.project3.description">A festive website featuring countdown timer and interactive greeting cards for Eid celebrations.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-project="4">
-                    <div class="project-image">
-                        <img src="images/we4.png" alt="3D Artist Portfolio">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="projects.project4.title">3D Artist Portfolio</h3>
-                        <p class="project-description" data-translate="projects.project4.description">A professional portfolio website for a 3D artist showcasing visual effects and creative work.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card" data-project="5">
-                    <div class="project-image">
-                        <img src="images/we5.png" alt="Sweet Delights Bakery">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title" data-translate="projects.project5.title">Bakery Website</h3>
-                        <p class="project-description" data-translate="projects.project5.description">A beautiful bakery website with product showcase and elegant design for artisanal baked goods.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">TypeScript</span>
-                            <span class="tech-tag">React Hot toast</span>
-                            <span class="tech-tag">Tailwind CSS</span>
-                            <span class="tech-tag">Framer Motion</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="projects.title">
+            My Projects
+          </h2>
+          <p class="section-subtitle" data-translate="projects.subtitle">
+            A showcase of my recent work
+          </p>
         </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-project="1">
+            <div class="project-image">
+              <img
+                src="images/we1.png"
+                alt="Learnly - Online Educational Website"
+              />
+            </div>
+            <div class="project-content">
+              <h3
+                class="project-title"
+                data-translate="projects.project1.title"
+              >
+                Online Educational Website
+              </h3>
+              <p
+                class="project-description"
+                data-translate="projects.project1.description"
+              >
+                A comprehensive online learning platform with interactive
+                courses and modern UI design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="2">
+            <div class="project-image">
+              <img src="images/we2.png" alt="To-Do List Application" />
+            </div>
+            <div class="project-content">
+              <h3
+                class="project-title"
+                data-translate="projects.project2.title"
+              >
+                To-Do List Website
+              </h3>
+              <p
+                class="project-description"
+                data-translate="projects.project2.description"
+              >
+                A clean and intuitive task management application with local
+                storage and responsive design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="3">
+            <div class="project-image">
+              <img src="images/we3.png" alt="Eid Adha Greeting Cards" />
+            </div>
+            <div class="project-content">
+              <h3
+                class="project-title"
+                data-translate="projects.project3.title"
+              >
+                Eid Adha Greeting Cards
+              </h3>
+              <p
+                class="project-description"
+                data-translate="projects.project3.description"
+              >
+                A festive website featuring countdown timer and interactive
+                greeting cards for Eid celebrations.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="4">
+            <div class="project-image">
+              <img src="images/we4.png" alt="3D Artist Portfolio" />
+            </div>
+            <div class="project-content">
+              <h3
+                class="project-title"
+                data-translate="projects.project4.title"
+              >
+                3D Artist Portfolio
+              </h3>
+              <p
+                class="project-description"
+                data-translate="projects.project4.description"
+              >
+                A professional portfolio website for a 3D artist showcasing
+                visual effects and creative work.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="5">
+            <div class="project-image">
+              <img src="images/we5.png" alt="Sweet Delights Bakery" />
+            </div>
+            <div class="project-content">
+              <h3
+                class="project-title"
+                data-translate="projects.project5.title"
+              >
+                Bakery Website
+              </h3>
+              <p
+                class="project-description"
+                data-translate="projects.project5.description"
+              >
+                A beautiful bakery website with product showcase and elegant
+                design for artisanal baked goods.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">React Hot toast</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Framer Motion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-translate="skills.title">Skills & Tools</h2>
-                <p class="section-subtitle" data-translate="skills.subtitle">Technologies I work with</p>
-            </div>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3 class="category-title" data-translate="skills.frontend">Skills</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React.js</span>
-                        <span class="skill-tag">Tailwind CSS</span>
-                        <span class="skill-tag">C++</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3 class="category-title" data-translate="skills.tools">Tools & Workflow</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">npm</span>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="skills.title">
+            Skills & Tools
+          </h2>
+          <p class="section-subtitle" data-translate="skills.subtitle">
+            Technologies I work with
+          </p>
         </div>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title" data-translate="skills.frontend">
+              Skills
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">C++</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title" data-translate="skills.tools">
+              Tools & Workflow
+            </h3>
+            <div class="skills-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">npm</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
-                <p class="section-subtitle" data-translate="contact.subtitle">Let's work together on your next project</p>
-            </div>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3 data-translate="contact.lets_talk">Let's Talk</h3>
-                    <p data-translate="contact.description">
-                        I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!
-                    </p>
-                    
-                    <div class="contact-links">
-                        <a href="mailto:haya.ehab@example.com" class="contact-link">
-                            <i data-feather="mail"></i>
-                            <span>haya.ehab@gmail.com</span>
-                        </a>
-                        
-                        <a href="https://github.com/haya-ehab" target="_blank" rel="noopener" class="contact-link">
-                            <i data-feather="github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        
-                        <a href="https://www.linkedin.com/in/haya-ehab-72206a351/" target="_blank" rel="noopener" class="contact-link">
-                            <i data-feather="linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </div>
-                </div>
-                
-                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mnnzjnjg" method="POST">
-                    <div class="form-group">
-                        <label for="name" data-translate="contact.form.name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email" data-translate="contact.form.email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message" data-translate="contact.form.message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">
-                        <span data-translate="contact.form.send">Send Message</span>
-                        <i data-feather="send"></i>
-                    </button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="contact.title">
+            Get In Touch
+          </h2>
+          <p class="section-subtitle" data-translate="contact.subtitle">
+            Let's work together on your next project
+          </p>
         </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-translate="contact.lets_talk">Let's Talk</h3>
+            <p data-translate="contact.description">
+              I'm always interested in hearing about new opportunities and
+              exciting projects. Whether you have a question or just want to say
+              hi, feel free to reach out!
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:haya.ehab@example.com" class="contact-link">
+                <i data-feather="mail"></i>
+                <span>haya.ehab@gmail.com</span>
+              </a>
+
+              <a
+                href="https://github.com/haya-ehab"
+                target="_blank"
+                rel="noopener"
+                class="contact-link"
+              >
+                <i data-feather="github"></i>
+                <span>GitHub</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/haya-ehab-72206a351/"
+                target="_blank"
+                rel="noopener"
+                class="contact-link"
+              >
+                <i data-feather="linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <div class="khamsat-label">
+                <a
+                  href="https://khamsat.com/user/haya_ehab"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Find me on Khamsat
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/mnnzjnjg"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name" data-translate="contact.form.name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email" data-translate="contact.form.email"
+                >Email</label
+              >
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-translate="contact.form.message"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <span data-translate="contact.form.send">Send Message</span>
+              <i data-feather="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Haya Ehab. <span data-translate="footer.rights">All rights reserved.</span></p>
-             
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>
+            &copy; 2025 Haya Ehab.
+            <span data-translate="footer.rights">All rights reserved.</span>
+          </p>
         </div>
+      </div>
     </footer>
 
     <!-- Project Modal -->
     <div class="modal" id="projectModal">
-        <div class="modal-content">
-            <button class="modal-close" aria-label="Close modal">
-                <i data-feather="x"></i>
-            </button>
-            
-            <div class="modal-body">
-                <img class="modal-image" src="" alt="">
-                <div class="modal-info">
-                    <h3 class="modal-title"></h3>
-                    <p class="modal-description"></p>
-                    <div class="modal-tech"></div>
-                    <div class="modal-links">
-                        <a href="#" class="btn btn-primary modal-demo" target="_blank" rel="noopener">
-                            <span data-translate="projects.view_demo">View Demo</span>
-                            <i data-feather="external-link"></i>
-                        </a>
-                        <a href="#" class="btn btn-secondary modal-code" target="_blank" rel="noopener">
-                            <span data-translate="projects.view_code">View Code</span>
-                            <i data-feather="github"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">
+          <i data-feather="x"></i>
+        </button>
+
+        <div class="modal-body">
+          <img class="modal-image" src="" alt="" />
+          <div class="modal-info">
+            <h3 class="modal-title"></h3>
+            <p class="modal-description"></p>
+            <div class="modal-tech"></div>
+            <div class="modal-links">
+              <a
+                href="#"
+                class="btn btn-primary modal-demo"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-translate="projects.view_demo">View Demo</span>
+                <i data-feather="external-link"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-secondary modal-code"
+                target="_blank"
+                rel="noopener"
+              >
+                <span data-translate="projects.view_code">View Code</span>
+                <i data-feather="github"></i>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="translations.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

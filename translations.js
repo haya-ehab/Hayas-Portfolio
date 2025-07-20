@@ -185,8 +185,7 @@ const translations = {
     },
     hero: {
       greeting: "Hallo, ich bin Haya –",
-      tagline: "Ich erschaffe saubere und menschenzentrierte Web-Erfahrungen.",
-      subtitle: "Junior Frontend-Entwicklerin mit Leidenschaft für die Erstellung schöner, zugänglicher und leistungsstarker Webanwendungen.",
+      subtitle: "Junior Frontend-Entwicklerin mit Leidenschaft für die Erstellung schöner.",
       view_work: "Meine Arbeit ansehen",
       get_in_touch: "Kontakt aufnehmen"
     },

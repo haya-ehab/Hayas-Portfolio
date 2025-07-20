@@ -185,7 +185,7 @@ const translations = {
     },
     hero: {
       greeting: "Hallo, ich bin Haya!!",
-    
+       tagline: "Designs in interaktive Erlebnisse verwandeln.",
       subtitle: "Junior Frontend-Entwicklerin.",
       view_work: "Meine Arbeit ansehen",
       get_in_touch: "Kontakt aufnehmen"

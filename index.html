@@ -70,6 +70,99 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
+      <div class="hero-background">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting" data-translate="hero.greeting"
+              >Hi, I'm Haya –</span
+            >
+            <span class="gradient-text" data-translate="hero.tagline"
+              >Turning designs into interactive experiences.</span
+            >
+          </h1>
+
+          <p class="hero-subtitle" data-translate="hero.subtitle">
+            Junior Frontend Developer passionate about creating beautiful,
+            accessible, and performant web applications.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="#projects"
+              class="btn btn-primary"
+              data-translate="hero.view_work"
+              >View My Work</a
+            >
+            <a
+              href="#contact"
+              class="btn btn-secondary"
+              data-translate="hero.get_in_touch"
+              >Get In Touch</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="code-visualization">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="window-controls">
+                  <span class="control close"></span>
+                  <span class="control minimize"></span>
+                  <span class="control maximize"></span>
+                </div>
+                <div class="window-title">portfolio.js</div>
+              </div>
+              <div class="code-content">
+                <div class="code-line">
+                  <span class="line-number">1</span>
+                  <span class="code-text">
+                    <span class="keyword">const</span>
+                    <span class="variable">developer</span>
+                    <span class="operator">=</span> {
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">2</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">name</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Haya Ehab"</span
+                    ><span class="operator">,</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">3</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">role</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Frontend Developer"</span
+                    ><span class="operator">,</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">4</span>
+                  <span class="code-text">
+                    &nbsp;&nbsp;<span class="property">passion</span
+                    ><span class="operator">:</span>
+                    <span class="string">"Clean Code"</span>
+                  </span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">5</span>
+                  <span class="code-text">};</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         <div class="hero-background">
             <div class="gradient-blob blob-1"></div>
             <div class="gradient-blob blob-2"></div>
@@ -84,7 +177,7 @@
                 </h1>
                 
                 <p class="hero-subtitle" data-translate="hero.subtitle">
-                    Junior Frontend Developer passionate about creating beautiful, accessible, and performant web applications.
+                    Junior Frontend Developer.
                 </p>
                 
                 <div class="hero-actions">
@@ -395,60 +488,99 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
-                <p class="section-subtitle" data-translate="contact.subtitle">Let's work together on your next project</p>
-            </div>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3 data-translate="contact.lets_talk">Let's Talk</h3>
-                    <p data-translate="contact.description">
-                        I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!
-                    </p>
-                    
-                    <div class="contact-links">
-                        <a href="mailto:haya.ehab@example.com" class="contact-link">
-                            <i data-feather="mail"></i>
-                            <span>haya.ehab@gmail.com</span>
-                        </a>
-                        
-                        <a href="https://github.com/haya-ehab" target="_blank" rel="noopener" class="contact-link">
-                            <i data-feather="github"></i>
-                            <span>GitHub</span>
-                        </a>
-                        
-                        <a href="https://www.linkedin.com/in/haya-ehab-72206a351/" target="_blank" rel="noopener" class="contact-link">
-                            <i data-feather="linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </div>
-                </div>
-                
-                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mnnzjnjg" method="POST">
-                    <div class="form-group">
-                        <label for="name" data-translate="contact.form.name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email" data-translate="contact.form.email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message" data-translate="contact.form.message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">
-                        <span data-translate="contact.form.send">Send Message</span>
-                        <i data-feather="send"></i>
-                    </button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-translate="contact.title">
+            Get In Touch
+          </h2>
+          <p class="section-subtitle" data-translate="contact.subtitle">
+            Let's work together on your next project
+          </p>
         </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-translate="contact.lets_talk">Let's Talk</h3>
+            <p data-translate="contact.description">
+              I'm always interested in hearing about new opportunities and
+              exciting projects. Whether you have a question or just want to say
+              hi, feel free to reach out!
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:haya.ehab@example.com" class="contact-link">
+                <i data-feather="mail"></i>
+                <span>haya.ehab.dev@gmail.com</span>
+              </a>
+
+              <a
+                href="https://github.com/haya-ehab"
+                target="_blank"
+                rel="noopener"
+                class="contact-link"
+              >
+                <i data-feather="github"></i>
+                <span>GitHub</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/haya-ehab-72206a351/"
+                target="_blank"
+                rel="noopener"
+                class="contact-link"
+              >
+                <i data-feather="linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <div class="khamsat-label">
+                <a
+                  href="https://khamsat.com/user/haya_ehab"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Find me on Khamsat
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/mnnzjnjg"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name" data-translate="contact.form.name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email" data-translate="contact.form.email"
+                >Email</label
+              >
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-translate="contact.form.message"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <span data-translate="contact.form.send">Send Message</span>
+              <i data-feather="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->

@@ -151,7 +151,7 @@ const translations = {
     skills: {
       title: "المهارات والأدوات",
       subtitle: "التقنيات التي أعمل بها",
-       المهارات": المهارات",
+       skills: "المهارات",
       tools: "الأدوات وسير العمل",
       backend: "البرمجة وأخرى"
     },
@@ -180,7 +180,7 @@ const translations = {
       home: "Startseite",
       about: "Über mich",
       projects: "Projekte",
-      fähigkeiten: "Fähigkeiten",
+      skills: "Fähigkeiten",
       contact: "Kontakt"
     },
     hero: {

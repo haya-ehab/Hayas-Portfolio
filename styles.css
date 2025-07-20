@@ -601,6 +601,26 @@ body {
   transition: var(--transition);
   position: relative;
   overflow: hidden;
+  
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+   margin-left: 40px;
+
 }
 
 .btn-primary {
@@ -636,6 +656,7 @@ body {
   font-weight: 700;
   margin-bottom: var(--space-4);
   color: var(--text-primary);
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {

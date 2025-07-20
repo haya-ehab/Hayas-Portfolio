@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Haya Ehab</title>
+    <meta name="description" content="Articles and insights by Haya Ehab - Frontend Developer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="images/hayaa logo.png" alt="Haya Ehab" class="nav-logo">
+                </a>
+            </div>
+            
+            <div class="nav-controls">
+                
+                
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i data-feather="sun" class="theme-icon sun-icon"></i>
+                    <i data-feather="moon" class="theme-icon moon-icon"></i>
+                </button>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav">
+            <a href="index.html" data-translate="nav.home">Home</a>
+            <a href="index.html#about" data-translate="nav.about">About</a>
+            <a href="index.html#projects" data-translate="nav.projects">Projects</a>
+            <a href="index.html#skills" data-translate="nav.skills">Skills</a>
+            <a href="blog.html" data-translate="nav.blog">Blog</a>
+            <a href="index.html#contact" data-translate="nav.contact">Contact</a>
+            
+         
+        </div>
+    </nav>
+
+    <!-- Blog Hero Section -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-content">
+                <h1 class="blog-hero-title" data-translate="blog.hero.title">My Blog</h1>
+                <p class="blog-hero-subtitle" data-translate="blog.hero.subtitle">
+                    Thoughts, tutorials, and insights about frontend development and web technologies
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-grid">
+                
+
+                <!-- Regular Articles -->
+               
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <div class="blog-placeholder-image">
+                            <i data-feather="zap"></i>
+                        </div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-date" data-translate="blog.article2.date">July 10, 2025</span>
+                            <span class="blog-category" data-translate="blog.article2.category">Performance</span>
+                        </div>
+                        <h3 class="blog-card-title" data-translate="blog.article2.title">
+                            Overdesign in Web: Why Less is More
+                        </h3>
+                        <p class="blog-card-excerpt" data-translate="blog.article2.excerpt">
+                           While animations and visual effects can enhance user experience when used wisely, many modern websites fall into the trap of overdesign—loading pages with unnecessary transitions, heavy scripts, and flashy elements that slow performance and frustrate users. This article explores the downside of excessive animations, why "less is more" still applies in web design, and how developers can strike the right balance between beauty and usability.
+
+
+                        </p>
+                        <a href="article1.html" class="blog-read-more" data-translate="blog.read_more">Read More</a>
+                    </div>
+                </article>
+
+                
+            <!-- Coming Soon Message -->
+            <div class="coming-soon">
+                <div class="coming-soon-content">
+                    <i data-feather="edit-3" class="coming-soon-icon"></i>
+                    <h3 data-translate="blog.coming_soon.title">More Articles Coming Soon!</h3>
+                    <p data-translate="blog.coming_soon.message">
+                        I'm working on more articles about frontend development, tutorials, and my learning journey. 
+                        Check back soon for new content!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-translate="footer.copyright">&copy; 2025 Haya Ehab. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html" data-translate="footer.home">Home</a>
+                    <a href="index.html#contact" data-translate="footer.contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

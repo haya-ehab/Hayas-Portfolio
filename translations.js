@@ -12,7 +12,7 @@ const translations = {
     hero: {
       greeting: "Hi, I'm Haya –",
       tagline: "Turning designs into interactive experiences..",
-      subtitle: "Junior Frontend Developer passionate about creating beautiful, accessible, and performant web applications.",
+      subtitle: "Junior Frontend Developer.",
       view_work: "View My Work",
       get_in_touch: "Get In Touch"
     },
@@ -64,7 +64,7 @@ const translations = {
     skills: {
       title: "Skills & Tools",
       subtitle: "Technologies I work with",
-      frontend: "Frontend",
+      Skills: "Skills",
       tools: "Tools & Workflow",
       backend: "Backend & Others"
     },
@@ -99,7 +99,7 @@ const translations = {
     hero: {
       greeting: "مرحباً، أنا هيا –",
       tagline: "أصمم تجارب ويب نظيفة تركز على المستخدم.",
-      subtitle: "مطورة واجهات أمامية مبتدئة شغوفة بإنشاء تطبيقات ويب جميلة وقابلة للوصول وعالية الأداء.",
+      subtitle: "مطورة واجهات امامية.",
       view_work: "اطلع على أعمالي",
       get_in_touch: "تواصل معي"
     },
@@ -151,7 +151,7 @@ const translations = {
     skills: {
       title: "المهارات والأدوات",
       subtitle: "التقنيات التي أعمل بها",
-      frontend: "الواجهة الأمامية",
+       skills: "المهارات",
       tools: "الأدوات وسير العمل",
       backend: "البرمجة وأخرى"
     },
@@ -184,6 +184,9 @@ const translations = {
       contact: "Kontakt"
     },
     hero: {
+      greeting: "Hallo, ich bin Haya!!",
+       tagline: "Designs in interaktive Erlebnisse verwandeln.",
+      subtitle: "Junior Frontend-Entwicklerin.",
       greeting: "Hallo, ich bin Haya –",
       subtitle: "Junior Frontend-Entwicklerin mit Leidenschaft für die Erstellung schöner.",
       view_work: "Meine Arbeit ansehen",
@@ -237,7 +240,7 @@ const translations = {
     skills: {
       title: "Fähigkeiten & Tools",
       subtitle: "Technologien, mit denen ich arbeite",
-      frontend: "Frontend",
+      skills: "Fähigkeiten",
       tools: "Tools & Workflow",
       backend: "Programmierung & Andere"
     },

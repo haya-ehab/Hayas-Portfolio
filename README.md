@@ -37,7 +37,7 @@ open index.html
 ```
 
 ## 📬 Contact
-Email: haya.ehab.dev@.com
+Email: haya.ehab.dev@gmail.com
 <br>
 LinkedIn: Haya Ehab
 <br>

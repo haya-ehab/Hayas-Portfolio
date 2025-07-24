@@ -4,7 +4,7 @@
 
 🌐 **Live Site:** [hayas-portfolio.vercel.app](https://hayas-portfolio.vercel.app/)
 
-Welcome to my personal front-end developer portfolio — a minimalist, elegant, and calming digital space showcasing my skills, projects, and creative vision. Built with a focus on clean UI, responsive design, and smooth interactivity.
+Welcome to my personal front-end developer portfolio — a minimalist,and calming digital space showcasing my skills, projects, and creative vision. Built with a focus on clean UI, responsive design, and smooth interactivity.
 
 ---
 

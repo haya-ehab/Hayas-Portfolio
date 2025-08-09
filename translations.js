@@ -97,7 +97,7 @@ const translations = {
       contact: "تواصل معي"
     },
     hero: {
-      greeting: "مرحباً، أنا هيا –",
+      greeting: "مرحباً، أنا هايا –",
       tagline: "أصمم تجارب ويب نظيفة تركز على المستخدم.",
       subtitle: "مطورة واجهات امامية.",
       view_work: "اطلع على أعمالي",

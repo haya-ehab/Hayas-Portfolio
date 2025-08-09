@@ -88,7 +88,7 @@ const translations = {
     }
   },
   ar: {
-    name: "هيا إيهاب",
+    name: "هايا إيهاب",
     nav: {
       home: "الرئيسية",
       about: "عنّي",

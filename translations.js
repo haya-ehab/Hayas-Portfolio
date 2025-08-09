@@ -47,7 +47,7 @@ const translations = {
         code_url: "https://github.com/haya-ehab/Eid-Adha"
       },
       project4: {
-        title: "3D Artist Portfolio (Client Project)",
+        title: "3D Artist Portfolio    (Client Project)",
         description: "A professional portfolio website for a 3D artist showcasing visual effects and creative work.",
         demo_url: "https://k-e22-portfolio.vercel.app/index.html",
         code_url: "https://github.com/haya-ehab/3d-artist-portfolio"

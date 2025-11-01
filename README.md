@@ -14,7 +14,7 @@ Welcome to my personal front-end developer portfolio — a minimalist,and calmin
 - 🌗 **Dark Mode** — Toggle between light and dark themes for better accessibility.
 - 🌍 **Multi-language Support** — Switch between Arabic, English, and German.
 - 📱 **Responsive Design** — Optimized for all screen sizes (mobile, tablet, desktop).
-- ⚡ **Fast & Lightweight** — Built with HTML, CSS, and vanilla JavaScript for blazing speed.
+
 
 ---
 

@@ -47,7 +47,7 @@ const translations = {
         code_url: "https://github.com/haya-ehab/Eid-Adha"
       },
       project4: {
-        title: "3D Artist Portfolio",
+        title: "3D Artist Portfolio    (Client Project)",
         description: "A professional portfolio website for a 3D artist showcasing visual effects and creative work.",
         demo_url: "https://k-e22-portfolio.vercel.app/index.html",
         code_url: "https://github.com/haya-ehab/3d-artist-portfolio"
@@ -94,7 +94,7 @@ const translations = {
     }
   },
   ar: {
-    name: "هيا إيهاب",
+    name: "هايا إيهاب",
     nav: {
       home: "الرئيسية",
       about: "عنّي",
@@ -103,7 +103,7 @@ const translations = {
       contact: "تواصل معي"
     },
     hero: {
-      greeting: "مرحباً، أنا هيا –",
+      greeting: "مرحباً، أنا هايا –",
       tagline: "أصمم تجارب ويب نظيفة تركز على المستخدم.",
       subtitle: "مطورة واجهات امامية.",
       view_work: "اطلع على أعمالي",

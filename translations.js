@@ -12,14 +12,14 @@ const translations = {
     hero: {
       greeting: "Hi, I'm Haya –",
       tagline: "Turning designs into interactive experiences..",
-      subtitle: "Junior Frontend Developer.",
+      subtitle: "Junior Full Stack Developer.",
       view_work: "View My Work",
       get_in_touch: "Get In Touch"
     },
     about: {
       title: "About Me",
       subtitle: "Get to know me better",
-      description1: "Hi! I'm Haya, a Junior Frontend Developer with 1 year of coding experience. I've built a strong foundation in HTML, CSS, JavaScript, React.js, Tailwind, Git and Github. My focus is on building user-friendly, clean, and responsive designs.",
+      description1: "Hi! I'm Haya, a Junior Full Stack Developer with 1 year of coding experience. I've built a strong foundation in HTML, CSS, JavaScript, React.js, Tailwind, Node.js, FastAPI Git and Github. My focus is on building user-friendly, clean, and responsive designs.",
       description2: "I'm always looking to learn and grow, and I'm excited to collaborate on projects that challenge me and allow me to make a real impact. Feel free to explore my work and reach out if you're looking for a passionate junior developer to bring your ideas to life!",
       years_experience: "Year Experience",
       projects_completed: "Projects Completed",
@@ -57,6 +57,12 @@ const translations = {
         description: "A beautiful bakery website with product showcase and elegant design for artisanal baked goods.",
         demo_url: "https://haya-ehab.github.io/Bakery-Website/",
         code_url: "https://github.com/haya-ehab/Bakery-Website"
+      },
+      project6: {
+        title: "Digital Legacy",
+        description: "A digital legacy that connects generations. Share your stories, preserve precious memories.",
+       demo_url: "https://haya-ehab.github.io",
+        code_url: "https://wisal-yhsi.vercel.app/"
       },
       view_demo: "View Demo",
       view_code: "View Code"

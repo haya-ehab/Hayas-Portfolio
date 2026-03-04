@@ -29,10 +29,10 @@ const translations = {
       title: "My Projects",
       subtitle: "A showcase of my recent work",
       project1: {
-        title: "Online Educational Website",
-        description: "A comprehensive online learning platform with interactive courses and modern UI design.",
-        demo_url: "https://haya-ehab.github.io/Learnly/",
-        code_url: "https://github.com/haya-ehab/Learnly"
+        title: "Digital Legacy",
+        // description: "A comprehensive online learning platform with interactive courses and modern UI design.",
+        demo_url: "https://wisal-yhsi.vercel.app/",
+       
       },
       project2: {
         title: "To-Do List Website",
@@ -49,8 +49,8 @@ const translations = {
       project4: {
         title: "3D Artist Portfolio    (Client Project)",
         description: "A professional portfolio website for a 3D artist showcasing visual effects and creative work.",
-        demo_url: "https://k-e22-portfolio.vercel.app/index.html",
-        code_url: "https://github.com/haya-ehab/3d-artist-portfolio"
+        demo_url: "https://ke22-portfolio.vercel.app/",
+        code_url: "https://ke22-portfolio.vercel.app/"
       },
       project5: {
         title: "Bakery Website",
@@ -59,10 +59,10 @@ const translations = {
         code_url: "https://github.com/haya-ehab/Bakery-Website"
       },
       project6: {
-        title: "Digital Legacy",
-        description: "A digital legacy that connects generations. Share your stories, preserve precious memories.",
-       demo_url: "https://haya-ehab.github.io",
-        code_url: "https://wisal-yhsi.vercel.app/"
+        title: "Learnly - Online Educational Website",
+        description: "A comprehensive online learning platform featuring interactive courses, modern UI design, and educational content. The website provides an engaging learning experience with clean design principles and responsive layouts to ensure accessibility across all devices.",
+        demo_url: "https://haya-ehab.github.io/Learnly/",
+        code_url: "https://github.com/haya-ehab/Learnly"
       },
       view_demo: "View Demo",
       view_code: "View Code"
@@ -124,8 +124,8 @@ const translations = {
       project1: {
         title: "موقع تعليمي إلكتروني",
         description: "منصة تعلم شاملة عبر الإنترنت مع دورات تفاعلية وتصميم واجهة مستخدم حديث.",
-        demo_url: "https://haya-ehab.github.io/Learnly/",
-        code_url: "https://github.com/haya-ehab/Learnly"
+        demo_url: "https://wisal-yhsi.vercel.app/",
+       // code_url: "https://github.com/haya-ehab/Learnly"
       },
       project2: {
         title: "موقع قائمة المهام",
@@ -147,7 +147,7 @@ const translations = {
       },
       project5: {
         title: "موقع مخبز",
-        description: "موقع مخبز جميل مع عرض المنتجات وتصميم أنيق للمخبوزات الحرفية.",
+        description: "موقع مخبز جميل مع عرض للمنتجات وتصميم أنيق للمخبوزات الحرفية.",
         demo_url: "https://haya-ehab.github.io/Bakery-Website/",
         code_url: "https://github.com/haya-ehab/Bakery-Website"
       },
@@ -213,8 +213,8 @@ const translations = {
       project1: {
         title: "Online-Bildungswebsite",
         description: "Eine umfassende Online-Lernplattform mit interaktiven Kursen und modernem UI-Design.",
-        demo_url: "https://haya-ehab.github.io/Learnly/",
-        code_url: "https://github.com/haya-ehab/Learnly"
+        demo_url: "https://wisal-yhsi.vercel.app/",
+       // code_url: "https://github.com/haya-ehab/Wisal"
       },
       project2: {
         title: "To-Do-Listen-Website",
@@ -275,36 +275,20 @@ const translations = {
 window.projectData = {
   1: {
     title: {
-      en: "Online Educational Website",
-      ar: "موقع تعليمي إلكتروني",
-      de: "Online-Bildungswebsite"
+      en: "Digital Legacy",
+      ar: "الإرث الرقمي",
+      de: "Digitales Vermächtnis"
     },
-    description: {
-      en: "A comprehensive online learning platform featuring interactive courses, modern UI design, and educational content. The website provides an engaging learning experience with clean design principles and responsive layouts to ensure accessibility across all devices.",
-      ar: "منصة تعلم شاملة عبر الإنترنت تتميز بدورات تفاعلية وتصميم واجهة مستخدم حديث ومحتوى تعليمي. يوفر الموقع تجربة تعلم جذابة مع مبادئ تصميم نظيفة وتخطيطات متجاوبة لضمان إمكانية الوصول عبر جميع الأجهزة.",
-      de: "Eine umfassende Online-Lernplattform mit interaktiven Kursen, modernem UI-Design und Bildungsinhalten. Die Website bietet ein ansprechendes Lernerlebnis mit sauberen Designprinzipien und responsiven Layouts, um die Zugänglichkeit auf allen Geräten zu gewährleisten."
+      description: {
+        en: "A digital legacy that connects generations. Share your stories, preserve precious memories.",
+        ar: "إرث رقمي يربط الأجيال. شارك قصصك واحتفظ بالذكريات الثمينة.",
+        de: "Ein digitales Vermächtnis, das Generationen verbindet. Teile deine Geschichten, bewahre wertvolle Erinnerungen."
+      },
+      tech: ["TypeScript", "Tailwind CSS", "Framer Motion", "React.js", "React Hot Toast", "Node.js"],
+      image: "images/learnly.png",
+      demoUrl: "https://wisal-yhsi.vercel.app/",
+      codeUrl: null // Client work - code not available
     },
-    tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "./learnly.png",
-    demoUrl: "https://haya-ehab.github.io/Learnly/",
-    codeUrl: "https://github.com/haya-ehab/Learnly"
-  },
-  2: {
-    title: {
-      en: "To-Do List Website",
-      ar: "موقع قائمة المهام",
-      de: "To-Do-Listen-Website"
-    },
-    description: {
-      en: "A clean and intuitive task management application featuring local storage functionality, responsive design, and an easy-to-use interface. Users can add, edit, delete, and mark tasks as complete with data persistence across browser sessions.",
-      ar: "تطبيق إدارة مهام نظيف وبديهي يتميز بوظيفة التخزين المحلي والتصميم المتجاوب وواجهة سهلة الاستخدام. يمكن للمستخدمين إضافة وتحرير وحذف وتمييز المهام كمكتملة مع استمرارية البيانات عبر جلسات المتصفح.",
-      de: "Eine saubere und intuitive Aufgabenmanagement-Anwendung mit lokaler Speicherfunktionalität, responsivem Design und einer benutzerfreundlichen Oberfläche. Benutzer können Aufgaben hinzufügen, bearbeiten, löschen und als abgeschlossen markieren, wobei die Daten über Browser-Sitzungen hinweg gespeichert bleiben."
-    },
-    tech: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
-    image: "./todo.png",
-    demoUrl: "https://haya-ehab.github.io/To-Do-List-Project/",
-    codeUrl: "https://github.com/haya-ehab/To-Do-List-Project"
-  },
   3: {
     title: {
       en: "Eid Adha Greeting Cards",
@@ -312,29 +296,29 @@ window.projectData = {
       de: "Eid Adha Grußkarten"
     },
     description: {
-      en: "A festive website featuring a countdown timer and interactive greeting cards for Eid celebrations. The site includes beautiful Islamic design elements, countdown functionality, and culturally appropriate content for the religious holiday.",
-      ar: "موقع احتفالي يتضمن عداد تنازلي وبطاقات تهنئة تفاعلية لاحتفالات العيد. يشمل الموقع عناصر تصميم إسلامية جميلة ووظيفة العد التنازلي ومحتوى مناسب ثقافياً للعطلة الدينية.",
-      de: "Eine festliche Website mit einem Countdown-Timer und interaktiven Grußkarten für Eid-Feierlichkeiten. Die Seite umfasst schöne islamische Designelemente, Countdown-Funktionalität und kulturell angemessene Inhalte für den religiösen Feiertag."
+      en: "A festive website featuring countdown timer and interactive greeting cards for Eid celebrations.",
+      ar: "موقع احتفالي يتضمن عداد تنازلي وبطاقات تهنئة تفاعلية لاحتفالات العيد.",
+      de: "Eine festliche Website mit Countdown-Timer und interaktiven Grußkarten für Eid-Feiern."
     },
-    tech: ["HTML5", "CSS3", "JavaScript", "Countdown Timer"],
-    image: "./eid-adha.png",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "images/we3.png",
     demoUrl: "https://haya-ehab.github.io/Eid-Adha/",
     codeUrl: "https://github.com/haya-ehab/Eid-Adha"
   },
   4: {
     title: {
-      en: "3D Artist Portfolio",
-      ar: "محفظة فنان ثلاثي الأبعاد",
-      de: "3D-Künstler Portfolio"
+      en: "3D Artist Portfolio (Client Project)",
+      ar: "محفظة فنان ثلاثي الأبعاد (مشروع عميل)",
+      de: "3D-Künstler Portfolio (Kundenprojekt)"
     },
     description: {
-      en: "A professional portfolio website for a 3D artist showcasing visual effects and creative work. This client project features modern design principles, smooth animations, and optimized galleries to highlight the artist's skills and projects in visual effects and 3D modeling.",
-      ar: "موقع محفظة مهني لفنان ثلاثي الأبعاد يعرض المؤثرات البصرية والأعمال الإبداعية. يتميز هذا المشروع للعميل بمبادئ التصميم الحديثة والرسوم المتحركة السلسة والمعارض المحسنة لإبراز مهارات الفنان ومشاريعه في المؤثرات البصرية والنمذجة ثلاثية الأبعاد.",
-      de: "Eine professionelle Portfolio-Website für einen 3D-Künstler, die visuelle Effekte und kreative Arbeiten präsentiert. Dieses Kundenprojekt zeichnet sich durch moderne Designprinzipien, sanfte Animationen und optimierte Galerien aus, um die Fähigkeiten und Projekte des Künstlers in visuellen Effekten und 3D-Modellierung hervorzuheben."
+      en: "A professional portfolio website for a 3D artist showcasing visual effects and creative work.",
+      ar: "موقع محفظة مهني لفنان ثلاثي الأبعاد يعرض المؤثرات البصرية والأعمال الإبداعية.",
+      de: "Eine professionelle Portfolio-Website für einen 3D-Künstler mit visuellen Effekten und kreativen Arbeiten."
     },
-    tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "./ke-portfolio.png",
-    demoUrl: "https://k-e22-portfolio.vercel.app/index.html",
+    tech: ["React", "Typescript", "Tailwind"],
+    image: "images/we8.png",
+    demoUrl: "https://ke22-portfolio.vercel.app/",
     codeUrl: null // Client work - code not available
   },
   5: {
@@ -344,14 +328,30 @@ window.projectData = {
       de: "Bäckerei-Website"
     },
     description: {
-      en: "A beautiful bakery website featuring product showcases and elegant design for artisanal baked goods. The site includes menu displays, product categories, and a warm, inviting design that reflects the artisanal nature of the bakery's offerings.",
-      ar: "موقع مخبز جميل يتميز بعرض المنتجات وتصميم أنيق للمخبوزات الحرفية. يتضمن الموقع عروض القائمة وفئات المنتجات وتصميم دافئ وجذاب يعكس الطبيعة الحرفية لعروض المخبز.",
-      de: "Eine schöne Bäckerei-Website mit Produktpräsentationen und elegantem Design für handwerkliche Backwaren. Die Seite umfasst Menüanzeigen, Produktkategorien und ein warmes, einladendes Design, das die handwerkliche Natur der Bäckerei-Angebote widerspiegelt."
+      en: "A beautiful bakery website with product showcase and elegant design for artisanal baked goods.",
+      ar: "موقع مخبز جميل مع عرض للمنتجات وتصميم أنيق للمخبوزات الحرفية.",
+      de: "Eine schöne Bäckerei-Website mit Produktpräsentation und elegantem Design für handwerkliche Backwaren."
+    },
+    tech: ["TypeScript", "Tailwind CSS", "Framer Motion", "React.js", "React Hot Toast"],
+    image: "images/we5.png",
+    demoUrl: "#",
+    codeUrl: "#"
+  },
+  6: {
+    title: {
+      en: "Learnly - Online Educational Website",
+      ar: "موقع تعليمي إلكتروني (Learnly)",
+      de: "Online-Bildungswebsite (Learnly)"
+    },
+    description: {
+      en: "A comprehensive online learning platform featuring interactive courses, modern UI design, and educational content. The website provides an engaging learning experience with clean design principles and responsive layouts to ensure accessibility across all devices.",
+      ar: "منصة تعلم شاملة عبر الإنترنت تتميز بدورات تفاعلية وتصميم واجهة مستخدم حديث ومحتوى تعليمي. يوفر الموقع تجربة تعلم جذابة مع مبادئ تصميم نظيفة وتخطيطات متجاوبة لضمان إمكانية الوصول عبر جميع الأجهزة.",
+      de: "Eine umfassende Online-Lernplattform mit interaktiven Kursen, modernem UI-Design und Bildungsinhalten. Die Website bietet ein ansprechendes Lernerlebnis mit sauberen Designprinzipien und responsiven Layouts, um die Zugänglichkeit auf allen Geräten zu gewährleisten."
     },
     tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "./bakery.png",
-    demoUrl: "https://haya-ehab.github.io/Bakery-Website/",
-    codeUrl: "https://github.com/haya-ehab/Bakery-Website"
+    image: "images/learnly.png",   // ← use the right image
+    demoUrl: "https://haya-ehab.github.io/Learnly/",
+    codeUrl: "https://github.com/haya-ehab/Learnly"
   }
 };
 
